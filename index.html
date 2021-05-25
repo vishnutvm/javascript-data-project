@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>JS</title>
 </head>
 <body>
-    <h2 class="text">Name</h2>
-    <input type="text" class="input">
-    <button onclick="clicked()" class="btn">Submit</button>
-    <h2>Name</h2>
-<ul style="list-style:none" class="students">
+    <div class="container">
+        <h2 class="kichen-heading">Welcome to Our Kitchen</h2>
+        <div class="kichen-input-wrapper">
+            <input type="text" placeholder="Enter Kitchen itmes here" id="kichen-input">
+            <button id="add-btn">Add now</button>
+        </div>
+        <ul class="item-list" id="item-list">
+    
+        </ul>
+        
+    </div>
+ 
 
-</ul>
-</style>
 <script src="./script.js"></script>
 </body>
 </html>
